@@ -1,5 +1,4 @@
-================================================================
-CCY3302 - Distributed Systems Security
+
 Project: AI-Based Detection of Malicious Websites Using Distributed Crawlers
 ================================================================
 
@@ -372,7 +371,4 @@ For questions or issues:
   - Check evaluation_report.txt for model details
   - Review logs in console output
 
-============================================================
-Project completed as per CCY3302 requirements
-Distributed Systems Security - Advanced Implementation
-============================================================
+
