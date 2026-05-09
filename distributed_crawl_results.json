@@ -1,0 +1,164 @@
+{
+  "classified_results": [
+    {
+      "url": "https://www.google.com",
+      "node_id": "Crawler-Node-1",
+      "crawl_success": true,
+      "prediction": 0,
+      "label": "SAFE",
+      "confidence": 100.0,
+      "whitelisted": true,
+      "timestamp": 1778354876.8390198
+    },
+    {
+      "url": "https://www.github.com",
+      "node_id": "Crawler-Node-1",
+      "crawl_success": true,
+      "prediction": 0,
+      "label": "SAFE",
+      "confidence": 100.0,
+      "whitelisted": true,
+      "timestamp": 1778354879.1896868
+    },
+    {
+      "url": "https://www.wikipedia.org",
+      "node_id": "Crawler-Node-1",
+      "crawl_success": true,
+      "prediction": 0,
+      "label": "SAFE",
+      "confidence": 100.0,
+      "whitelisted": true,
+      "timestamp": 1778354886.4127882
+    },
+    {
+      "url": "https://stackoverflow.com",
+      "node_id": "Crawler-Node-1",
+      "crawl_success": true,
+      "prediction": 0,
+      "label": "SAFE",
+      "confidence": 100.0,
+      "whitelisted": true,
+      "timestamp": 1778354887.6113498
+    },
+    {
+      "url": "https://www.python.org",
+      "node_id": "Crawler-Node-2",
+      "crawl_success": true,
+      "prediction": 0,
+      "label": "SAFE",
+      "confidence": 100.0,
+      "whitelisted": true,
+      "timestamp": 1778354889.0686266
+    },
+    {
+      "url": "http://paypal-secure-login.verify-account.xyz/update",
+      "node_id": "Crawler-Node-2",
+      "crawl_success": false,
+      "prediction": 1,
+      "label": "MALICIOUS",
+      "confidence": 99.5,
+      "timestamp": 1778354898.9559145
+    },
+    {
+      "url": "http://free-iphone-winner.click/verify-account-now",
+      "node_id": "Crawler-Node-2",
+      "crawl_success": false,
+      "prediction": 1,
+      "label": "MALICIOUS",
+      "confidence": 95.85,
+      "timestamp": 1778354901.8761268
+    },
+    {
+      "url": "http://login-verify.paypal-update.xyz",
+      "node_id": "Crawler-Node-2",
+      "crawl_success": false,
+      "prediction": 1,
+      "label": "MALICIOUS",
+      "confidence": 95.62,
+      "timestamp": 1778354912.0807755
+    },
+    {
+      "url": "http://secure-account-alert.info/update",
+      "node_id": "Crawler-Node-3",
+      "crawl_success": false,
+      "prediction": 1,
+      "label": "MALICIOUS",
+      "confidence": 98.43,
+      "timestamp": 1778354931.2292674
+    },
+    {
+      "url": "http://192.168.0.1/admin/banking",
+      "node_id": "Crawler-Node-3",
+      "crawl_success": false,
+      "prediction": 1,
+      "label": "MALICIOUS",
+      "confidence": 98.73,
+      "timestamp": 1778354943.7552032
+    },
+    {
+      "url": "https://www.amazon.com",
+      "node_id": "Crawler-Node-3",
+      "crawl_success": true,
+      "prediction": 0,
+      "label": "SAFE",
+      "confidence": 100.0,
+      "whitelisted": true,
+      "timestamp": 1778354945.362632
+    },
+    {
+      "url": "https://docs.python.org/3/",
+      "node_id": "Crawler-Node-3",
+      "crawl_success": true,
+      "prediction": 0,
+      "label": "SAFE",
+      "confidence": 100.0,
+      "whitelisted": true,
+      "timestamp": 1778354946.7942092
+    },
+    {
+      "url": "https://www.stackoverflow.com",
+      "node_id": "Crawler-Node-3",
+      "crawl_success": true,
+      "prediction": 0,
+      "label": "SAFE",
+      "confidence": 100.0,
+      "whitelisted": true,
+      "timestamp": 1778354954.3720589
+    }
+  ],
+  "threat_report": {
+    "total_urls_analyzed": 13,
+    "safe_urls": 8,
+    "malicious_urls": 5,
+    "threat_rate_percent": 38.46,
+    "average_malicious_confidence": 97.63,
+    "crawl_success_rate": 61.54,
+    "nodes_involved": [
+      "Crawler-Node-1",
+      "Crawler-Node-2",
+      "Crawler-Node-3"
+    ],
+    "timestamp": 1778354955.220106,
+    "per_node_statistics": {
+      "Crawler-Node-1": {
+        "total_urls": 4,
+        "malicious": 0,
+        "safe": 4,
+        "threat_rate": 0.0
+      },
+      "Crawler-Node-2": {
+        "total_urls": 4,
+        "malicious": 3,
+        "safe": 1,
+        "threat_rate": 75.0
+      },
+      "Crawler-Node-3": {
+        "total_urls": 5,
+        "malicious": 2,
+        "safe": 3,
+        "threat_rate": 40.0
+      }
+    }
+  },
+  "execution_time_seconds": 79.94547820091248
+}
