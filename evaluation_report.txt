@@ -1,0 +1,63 @@
+
+================================================================================
+COMPREHENSIVE MODEL EVALUATION REPORT
+================================================================================
+
+1. OVERALL PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+Accuracy:  0.9495 (94.95%)
+Precision: 0.9310
+Recall:    0.9204
+F1-Score:  0.9257
+
+2. DATASET INFORMATION
+--------------------------------------------------------------------------------
+Training samples:  40000
+Testing samples:   10000
+Total features:    31
+
+3. CONFUSION MATRIX ANALYSIS
+--------------------------------------------------------------------------------
+True Negatives:    6350 (Correct safe predictions)
+False Positives:    233 (Safe URLs incorrectly flagged)
+False Negatives:    272 (Missed malicious URLs)
+True Positives:    3145 (Correct malicious predictions)
+
+Sensitivity (Recall):  0.9204
+Specificity:           0.9646
+
+4. MODEL INTERPRETATION
+--------------------------------------------------------------------------------
+[EXCELLENT] Excellent performance on both safe and malicious URLs
+
+False Positive Rate: 3.54%
+  (Safe URLs incorrectly flagged as malicious)
+False Negative Rate: 7.96%
+  (Malicious URLs not detected)
+
+5. TOP 15 MOST IMPORTANT FEATURES
+--------------------------------------------------------------------------------
+ 1. domain_length........................... 0.230739
+ 2. subdomain_count......................... 0.166872
+ 3. num_slashes............................. 0.159874
+ 4. num_dots................................ 0.117831
+ 5. url_length.............................. 0.077500
+ 6. path_depth.............................. 0.071203
+ 7. url_entropy............................. 0.048216
+ 8. num_hyphens............................. 0.040688
+ 9. num_digits.............................. 0.038540
+10. query_string_length..................... 0.028027
+11. suspicious_keywords..................... 0.007670
+12. has_https............................... 0.006488
+13. has_ip.................................. 0.006058
+14. num_at.................................. 0.000164
+15. fragment_length......................... 0.000130
+
+6. RECOMMENDATIONS
+--------------------------------------------------------------------------------
+- Model performs well - continue monitoring in production
+- Retrain periodically with new data
+
+================================================================================
+END OF REPORT
+================================================================================
